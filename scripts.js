@@ -7,7 +7,6 @@ menuToggle.addEventListener('click', () => {
     nav.classList.add('active');
     document.body.style.overflow = 'hidden';
 });
-
 closeMenu.addEventListener('click', () => {
     nav.classList.remove('active');
     document.body.style.overflow = 'auto';
